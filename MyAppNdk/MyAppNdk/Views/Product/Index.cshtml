@@ -1,0 +1,33 @@
+﻿@model List<MyAppNdk.Models.Product>
+
+@{
+    ViewData["Title"] = "Quản lý sản phẩm - Dirty Coin";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Id</th>
+            <th>Tên sản phẩm</th>
+            <th>Giá bán (VNĐ)</th>
+            <th>Ngày tạo</th>
+            <th>Ảnh</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Price.ToString("N0") đ</td>
+                <td>@item.CreatedAt.ToString("dd-MM-yyyy")</td>
+                <td><img src="@item.Image" width="100" /></td>
+                <td><button class="btn btn-success">Xem</button></td>
+            </tr>
+        }
+    </tbody>
+</table>
