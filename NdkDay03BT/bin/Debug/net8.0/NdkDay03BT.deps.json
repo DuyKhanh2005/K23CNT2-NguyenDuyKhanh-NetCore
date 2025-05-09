@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "NdkDay03BT/1.0.0": {
+        "runtime": {
+          "NdkDay03BT.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NdkDay03BT/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

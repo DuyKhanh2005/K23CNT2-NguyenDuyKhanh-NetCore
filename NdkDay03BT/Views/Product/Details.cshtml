@@ -1,0 +1,16 @@
+﻿@model NdkDay03BT.Models.Product
+
+<h2>Chi tiết sản phẩm</h2>
+
+<div class="card">
+    <img src="@Model.ImageUrl" class="card-img-top" alt="@Model.Name" style="height: 300px; object-fit: cover;">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <p class="card-text"><strong>Mã sản phẩm:</strong> @Model.Code</p>
+        <p class="card-text"><strong>Giá:</strong> @Model.Price.ToString("N0") đ</p>
+        <p class="card-text"><strong>Danh mục:</strong> @Model.Category</p>
+        <p class="card-text"><strong>Mô tả:</strong> @Model.Description</p>
+    </div>
+</div>
+
+<a href="/Product" class="btn btn-secondary mt-3">Quay lại danh sách</a>
