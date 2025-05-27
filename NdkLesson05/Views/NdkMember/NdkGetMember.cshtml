@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "Thông tin Member";
+    var ndkMember = ViewBag.ndkMember as NdkLesson05.Models.DataModels.NdkMember;
+}
+
+
+<div class="alert alert-info">
+    <h1>Thong tin member</h1>
+    <hr/>
+    <p>Member ID: @ndkMember.NdkMemberID</p>
+    <p>UserName: @ndkMember.NdkUserName</p>
+    <p>FullName: @ndkMember.NdkFullName</p>
+    <p>Email: @ndkMember.NdkEmail</p>
+</div>

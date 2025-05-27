@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using NdkDay03BT.Data;
 using NdkDay03BT.Models;
+using System.Linq;
+using YourNamespace.Models;
 
 namespace NdkDay03BT.Controllers
 {
@@ -9,8 +11,7 @@ namespace NdkDay03BT.Controllers
         // Hiển thị danh sách sản phẩm
         public IActionResult Index()
         {
-            var products = ProductRepository.Products;
-            return View(products);
+            return View(ProductRepository.Products);
         }
 
         // Xem chi tiết sản phẩm
@@ -60,6 +61,7 @@ namespace NdkDay03BT.Controllers
                 return NotFound();
             }
 
+            // Cập nhật thông tin sản phẩm
             existingProduct.Name = product.Name;
             existingProduct.ImageUrl = product.ImageUrl;
             existingProduct.Code = product.Code;
