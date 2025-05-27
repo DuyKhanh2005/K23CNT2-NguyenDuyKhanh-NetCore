@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NdkLab06.props" />
+</Project>

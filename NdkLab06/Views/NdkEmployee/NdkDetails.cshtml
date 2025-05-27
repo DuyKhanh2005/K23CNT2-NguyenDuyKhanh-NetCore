@@ -1,0 +1,15 @@
+﻿@model NdkLab06.Models.NdkEmployee
+@{
+    ViewData["Title"] = "Thông tin nhân viên";
+}
+
+<h2 class="mb-4">Thông tin nhân viên</h2>
+<ul class="list-unstyled fs-5">
+    <li>Họ và tên: <b>@Model.ndkName</b></li>
+    <li>Ngày sinh: <b>@Model.ndkBirthDay.ToString("dd/MM/yyyy")</b></li>
+    <li>Email: <b>@Model.ndkEmail</b></li>
+    <li>Điện thoại: <b>@Model.ndkPhone</b></li>
+    <li>Lương: <b>@Model.ndkSalary.ToString("N0") VNĐ</b></li>
+    <li>Trạng thái: <b>@(Model.ndkStatus ? "Đang làm" : "Nghỉ")</b></li>
+</ul>
+<a asp-action="NdkIndex" class="btn btn-secondary mt-2">Quay lại danh sách</a>

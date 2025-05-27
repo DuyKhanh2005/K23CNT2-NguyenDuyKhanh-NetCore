@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLab06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1481F0B5-6E19-4340-9B7F-8094923AD6EF}|NdkLab06.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklab06\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1481F0B5-6E19-4340-9B7F-8094923AD6EF}|NdkLab06.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1481F0B5-6E19-4340-9B7F-8094923AD6EF}|NdkLab06.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklab06\\controllers\\ndkemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1481F0B5-6E19-4340-9B7F-8094923AD6EF}|NdkLab06.csproj|solutionrelative:controllers\\ndkemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1481F0B5-6E19-4340-9B7F-8094923AD6EF}|NdkLab06.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklab06\\controllers\\ndkhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1481F0B5-6E19-4340-9B7F-8094923AD6EF}|NdkLab06.csproj|solutionrelative:controllers\\ndkhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLab06\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLab06\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACsAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T02:42:52.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NdkEmployeeController.cs",
+              "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLab06\\Controllers\\NdkEmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NdkEmployeeController.cs",
+              "ToolTip": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLab06\\Controllers\\NdkEmployeeController.cs",
+              "RelativeToolTip": "Controllers\\NdkEmployeeController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwBAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T02:41:48.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NdkHomeController.cs",
+              "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLab06\\Controllers\\NdkHomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NdkHomeController.cs",
+              "ToolTip": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLab06\\Controllers\\NdkHomeController.cs",
+              "RelativeToolTip": "Controllers\\NdkHomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T02:41:07.665Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

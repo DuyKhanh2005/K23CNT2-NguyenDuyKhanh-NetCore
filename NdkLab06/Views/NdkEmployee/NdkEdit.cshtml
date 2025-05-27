@@ -1,0 +1,38 @@
+﻿@model NdkLab06.Models.NdkEmployee
+@{
+    ViewData["Title"] = "Sửa thông tin nhân viên";
+}
+
+<h2 class="mb-4">Sửa thông tin nhân viên</h2>
+<form asp-action="NdkEdit" method="post">
+    <input type="hidden" asp-for="ndkId" />
+    <div class="mb-3">
+        <label asp-for="ndkName" class="form-label"></label>
+        <input asp-for="ndkName" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="ndkBirthDay" class="form-label"></label>
+        <input asp-for="ndkBirthDay" class="form-control" type="date" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="ndkEmail" class="form-label"></label>
+        <input asp-for="ndkEmail" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="ndkPhone" class="form-label"></label>
+        <input asp-for="ndkPhone" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="ndkSalary" class="form-label"></label>
+        <input asp-for="ndkSalary" class="form-control" type="number" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="ndkStatus" class="form-label"></label>
+        <select asp-for="ndkStatus" class="form-select">
+            <option value="true">Đang làm</option>
+            <option value="false">Nghỉ</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Lưu</button>
+    <a asp-action="NdkIndex" class="btn btn-secondary">Hủy</a>
+</form>

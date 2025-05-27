@@ -1,0 +1,53 @@
+﻿@model List<NdkLab06.Models.NdkEmployee>
+@{
+    ViewData["Title"] = "Danh sách nhân viên";
+}
+
+<h2 class="text-center mb-4">Danh sách nhân viên</h2>
+<div class="d-flex justify-content-end mb-3">
+    <a class="btn btn-primary" asp-action="NdkCreate">+ Thêm nhân viên</a>
+</div>
+<div class="table-responsive">
+    <table class="table table-bordered table-hover align-middle text-center shadow-sm">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Họ tên</th>
+                <th>Ngày sinh</th>
+                <th>Email</th>
+                <th>Điện thoại</th>
+                <th>Lương</th>
+                <th>Trạng thái</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var emp in Model)
+            {
+                <tr>
+                    <td>@emp.ndkId</td>
+                    <td class="text-start">@emp.ndkName</td>
+                    <td>@emp.ndkBirthDay.ToString("dd/MM/yyyy")</td>
+                    <td class="text-start">@emp.ndkEmail</td>
+                    <td>@emp.ndkPhone</td>
+                    <td>@emp.ndkSalary.ToString("N0") VNĐ</td>
+                    <td>
+                        @if (emp.ndkStatus)
+                        {
+                            <span class="badge bg-success">Đang làm</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">Nghỉ</span>
+                        }
+                    </td>
+                    <td>
+                        <a class="btn btn-info btn-sm me-1" asp-action="NdkDetails" asp-route-id="@emp.ndkId">Xem</a>
+                        <a class="btn btn-warning btn-sm me-1" asp-action="NdkEdit" asp-route-id="@emp.ndkId">Sửa</a>
+                        <a class="btn btn-danger btn-sm" asp-action="NdkDelete" asp-route-id="@emp.ndkId">Xoá</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

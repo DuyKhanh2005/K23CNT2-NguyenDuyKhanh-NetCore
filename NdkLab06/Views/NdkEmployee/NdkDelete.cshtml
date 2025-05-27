@@ -1,0 +1,19 @@
+﻿@model NdkLab06.Models.NdkEmployee
+@{
+    ViewData["Title"] = "Xác nhận xoá nhân viên";
+}
+
+<h2 class="mb-4 text-danger">Xác nhận xoá nhân viên</h2>
+<div class="alert alert-warning">
+    <p>Bạn có chắc chắn muốn xoá nhân viên này không?</p>
+    <ul>
+        <li><b>@Model.ndkName</b></li>
+        <li>Email: <b>@Model.ndkEmail</b></li>
+        <li>Điện thoại: <b>@Model.ndkPhone</b></li>
+    </ul>
+</div>
+<form asp-action="NdkDelete" method="post">
+    <input type="hidden" asp-for="ndkId" />
+    <button type="submit" class="btn btn-danger">Xoá</button>
+    <a asp-action="NdkIndex" class="btn btn-secondary">Hủy</a>
+</form>
