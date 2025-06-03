@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aL49U/FPypmPC8lSMtyreVl4Ov2GC0C/S+ytKW+1xvs=",
+  "Hash": "NOOhgMiHgCipZEj5YBxfYYPCmz3W408cpXDWuh2PGM0=",
   "Source": "NdkLesson07",
   "BasePath": "_content/NdkLesson07",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "bqulmmryze",
+      "Integrity": "06yTCL05TjdySk+sazmUEuoDYON9XwbjiULfrfsHvd8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\wwwroot\\Images\\logo.gif",
+      "SourceId": "NdkLesson07",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\wwwroot\\",
+      "BasePath": "_content/NdkLesson07",
+      "RelativePath": "Images/logo#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "91pzrupfkn",
+      "Integrity": "fexqXHE4qfxaQxGy/usdb5KgVzZqHd+g0h1WBs43HQo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\logo.gif"
     },
     {
       "Identity": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\wwwroot\\js\\site.js",
@@ -1321,7 +1342,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.c2tiyv64ts.css",
+      "Route": "css/site.bqulmmryze.css",
       "AssetFile": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1331,7 +1352,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "3612"
         },
         {
           "Name": "Content-Type",
@@ -1339,11 +1360,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"06yTCL05TjdySk+sazmUEuoDYON9XwbjiULfrfsHvd8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 02:34:51 GMT"
+          "Value": "Tue, 03 Jun 2025 03:49:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1353,7 +1374,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "bqulmmryze"
         },
         {
           "Name": "label",
@@ -1361,7 +1382,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-06yTCL05TjdySk+sazmUEuoDYON9XwbjiULfrfsHvd8="
         }
       ]
     },
@@ -1376,7 +1397,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "3612"
         },
         {
           "Name": "Content-Type",
@@ -1384,11 +1405,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"06yTCL05TjdySk+sazmUEuoDYON9XwbjiULfrfsHvd8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 02:34:51 GMT"
+          "Value": "Tue, 03 Jun 2025 03:49:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1398,7 +1419,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-06yTCL05TjdySk+sazmUEuoDYON9XwbjiULfrfsHvd8="
         }
       ]
     },
@@ -1481,6 +1502,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/logo.91pzrupfkn.gif",
+      "AssetFile": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\wwwroot\\Images\\logo.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "365552"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fexqXHE4qfxaQxGy/usdb5KgVzZqHd+g0h1WBs43HQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 03:44:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "91pzrupfkn"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/logo.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fexqXHE4qfxaQxGy/usdb5KgVzZqHd+g0h1WBs43HQo="
+        }
+      ]
+    },
+    {
+      "Route": "Images/logo.gif",
+      "AssetFile": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\wwwroot\\Images\\logo.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "365552"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fexqXHE4qfxaQxGy/usdb5KgVzZqHd+g0h1WBs43HQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 03:44:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fexqXHE4qfxaQxGy/usdb5KgVzZqHd+g0h1WBs43HQo="
         }
       ]
     },

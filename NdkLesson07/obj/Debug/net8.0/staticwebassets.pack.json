@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\NdkLesson07.4n3l47zifx.bundle.scp.css"
     },
     {
+      "Id": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\wwwroot\\Images\\logo.gif",
+      "PackagePath": "staticwebassets\\Images\\logo.gif"
+    },
+    {
       "Id": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
