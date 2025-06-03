@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson07\\views\\shared\\_ndknavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|solutionrelative:views\\shared\\_ndknavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson07\\views\\shared\\_ndklayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|solutionrelative:views\\shared\\_ndklayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson07\\views\\ndkhome\\ndkindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|solutionrelative:views\\ndkhome\\ndkindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson07\\views\\ndkemployee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|solutionrelative:views\\ndkemployee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson07\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson07\\wwwroot\\images\\logo.gif||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|solutionrelative:wwwroot\\images\\logo.gif||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson07\\views\\shared\\_ndknavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|solutionrelative:views\\shared\\_ndknavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson07\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson07\\views\\ndkemployee\\ndkcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|solutionrelative:views\\ndkemployee\\ndkcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson07\\views\\ndkemployee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|solutionrelative:views\\ndkemployee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson07\\models\\ndkemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,14 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson07\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson07\\views\\shared\\_ndklayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|solutionrelative:views\\shared\\_ndklayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson07\\views\\ndkhome\\ndkindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|solutionrelative:views\\ndkhome\\ndkindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96DE61B2-C1D9-4E71-8BD2-D1FB89DD28EC}|NdkLesson07.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson07\\views\\ndkhome\\ndkabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -82,11 +82,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "site.css",
               "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -99,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "logo.gif",
               "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\wwwroot\\Images\\logo.gif",
               "RelativeDocumentMoniker": "wwwroot\\Images\\logo.gif",
@@ -122,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -134,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\Views\\NdkEmployee\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\NdkEmployee\\Delete.cshtml",
@@ -147,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -155,12 +155,11 @@
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T03:06:27.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T03:06:27.642Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -172,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
               "Title": "NdkIndex.cshtml",
               "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\Views\\NdkHome\\NdkIndex.cshtml",
               "RelativeDocumentMoniker": "Views\\NdkHome\\NdkIndex.cshtml",
@@ -180,7 +179,8 @@
               "RelativeToolTip": "Views\\NdkHome\\NdkIndex.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T02:53:43.594Z"
+              "WhenOpened": "2025-06-03T02:53:43.594Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -220,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "NdkDetails.cshtml",
               "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\Views\\NdkEmployee\\NdkDetails.cshtml",
               "RelativeDocumentMoniker": "Views\\NdkEmployee\\NdkDetails.cshtml",
@@ -228,12 +228,11 @@
               "RelativeToolTip": "Views\\NdkEmployee\\NdkDetails.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T02:49:38.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T02:49:38.127Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "NdkCreate.cshtml",
               "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\Views\\NdkEmployee\\NdkCreate.cshtml",
               "RelativeDocumentMoniker": "Views\\NdkEmployee\\NdkCreate.cshtml",
@@ -241,12 +240,11 @@
               "RelativeToolTip": "Views\\NdkEmployee\\NdkCreate.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAcwDIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T02:49:03.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T02:49:03.657Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "NdkEmployee.cs",
               "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\Models\\NdkEmployee.cs",
               "RelativeDocumentMoniker": "Models\\NdkEmployee.cs",
@@ -258,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "NdkEmployeeController.cs",
               "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\Controllers\\NdkEmployeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\NdkEmployeeController.cs",
@@ -270,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "NdkHomeController.cs",
               "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\Controllers\\NdkHomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\NdkHomeController.cs",
@@ -282,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "_NdkLayout.cshtml",
               "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\Views\\Shared\\_NdkLayout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_NdkLayout.cshtml",
@@ -290,17 +288,18 @@
               "RelativeToolTip": "Views\\Shared\\_NdkLayout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T02:35:43.012Z"
+              "WhenOpened": "2025-06-03T02:35:43.012Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "_NdkNavBar.cshtml",
               "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\Views\\Shared\\_NdkNavBar.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_NdkNavBar.cshtml",
               "ToolTip": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson07\\Views\\Shared\\_NdkNavBar.cshtml",
               "RelativeToolTip": "Views\\Shared\\_NdkNavBar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-03T02:36:37.699Z",
               "EditorCaption": ""
