@@ -1,0 +1,42 @@
+﻿@model IEnumerable<NdkLesson07.Models.NdkEmployee>
+@{
+    ViewData["Title"] = "DANH SÁCH NHÂN VIÊN";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="NdkCreate" class="btn btn-primary">Thêm mới</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.First().NdkId)</th>
+            <th>@Html.DisplayNameFor(model => model.First().NdkName)</th>
+            <th>@Html.DisplayNameFor(model => model.First().NdkBirthDay)</th>
+            <th>@Html.DisplayNameFor(model => model.First().NdkEmail)</th>
+            <th>@Html.DisplayNameFor(model => model.First().NdkPhone)</th>
+            <th>@Html.DisplayNameFor(model => model.First().NdkSalary)</th>
+            <th>@Html.DisplayNameFor(model => model.First().NdkStatus)</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.NdkId</td>
+                <td>@item.NdkName</td>
+                <td>@item.NdkBirthDay.ToString("dd/MM/yyyy")</td>
+                <td>@item.NdkEmail</td>
+                <td>@item.NdkPhone</td>
+                <td>@item.NdkSalary.ToString("N0")</td>
+                <td>@(item.NdkStatus ? "Đang làm việc" : "Đã nghỉ")</td>
+                <td>
+                    <a asp-action="NdkEdit" asp-route-id="@item.NdkId" class="btn btn-sm btn-warning">Sửa</a>
+                    <a asp-action="NdkDetails" asp-route-id="@item.NdkId" class="btn btn-sm btn-info mx-1">Chi tiết</a>
+                    <a asp-action="Delete" asp-route-id="@item.NdkId" class="btn btn-sm btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,26 @@
+﻿@model NdkLesson07.Models.NdkEmployee
+@{
+    ViewData["Title"] = "Chi tiết nhân viên";
+}
+<h1>Chi tiết nhân viên</h1>
+<hr />
+<dl class="row">
+    <dt class="col-sm-3">@Html.DisplayNameFor(m => m.NdkId)</dt>
+    <dd class="col-sm-9">@Model.NdkId</dd>
+    <dt class="col-sm-3">@Html.DisplayNameFor(m => m.NdkName)</dt>
+    <dd class="col-sm-9">@Model.NdkName</dd>
+    <dt class="col-sm-3">@Html.DisplayNameFor(m => m.NdkBirthDay)</dt>
+    <dd class="col-sm-9">@Model.NdkBirthDay.ToString("dd/MM/yyyy")</dd>
+    <dt class="col-sm-3">@Html.DisplayNameFor(m => m.NdkEmail)</dt>
+    <dd class="col-sm-9">@Model.NdkEmail</dd>
+    <dt class="col-sm-3">@Html.DisplayNameFor(m => m.NdkPhone)</dt>
+    <dd class="col-sm-9">@Model.NdkPhone</dd>
+    <dt class="col-sm-3">@Html.DisplayNameFor(m => m.NdkSalary)</dt>
+    <dd class="col-sm-9">@Model.NdkSalary.ToString("N0")</dd>
+    <dt class="col-sm-3">@Html.DisplayNameFor(m => m.NdkStatus)</dt>
+    <dd class="col-sm-9">@(Model.NdkStatus ? "Đang làm việc" : "Đã nghỉ")</dd>
+</dl>
+<div>
+    <a asp-action="NdkEdit" asp-route-id="@Model.NdkId" class="btn btn-warning">Sửa</a>
+    <a asp-action="NdkIndex" class="btn btn-secondary ml-2">Quay lại danh sách</a>
+</div>

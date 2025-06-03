@@ -1,0 +1,18 @@
+﻿@model NdkLesson07.Models.NdkEmployee
+@{
+    ViewData["Title"] = "Xóa nhân viên";
+}
+<h1>Xóa nhân viên</h1>
+<hr />
+<h3>Bạn có chắc muốn xóa nhân viên này?</h3>
+<dl class="row">
+    <dt class="col-sm-3">@Html.DisplayNameFor(m => m.NdkName)</dt>
+    <dd class="col-sm-9">@Model.NdkName</dd>
+    <dt class="col-sm-3">@Html.DisplayNameFor(m => m.NdkEmail)</dt>
+    <dd class="col-sm-9">@Model.NdkEmail</dd>
+</dl>
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="NdkId" />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-action="NdkIndex" class="btn btn-secondary ml-2">Hủy</a>
+</form>
