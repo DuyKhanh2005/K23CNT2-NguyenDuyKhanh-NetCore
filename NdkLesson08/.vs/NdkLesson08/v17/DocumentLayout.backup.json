@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson08\\controllers\\ndkaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|solutionrelative:controllers\\ndkaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson08\\views\\ndkaccount\\ndkcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|solutionrelative:views\\ndkaccount\\ndkcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson08\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson08\\views\\ndkaccount\\ndkdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|solutionrelative:views\\ndkaccount\\ndkdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson08\\controllers\\ndkhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|solutionrelative:controllers\\ndkhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson08\\views\\ndkaccount\\ndkedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|solutionrelative:views\\ndkaccount\\ndkedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson08\\views\\ndkaccount\\ndkdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|solutionrelative:views\\ndkaccount\\ndkdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson08\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson08\\models\\ndkaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|solutionrelative:models\\ndkaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson08\\views\\ndkaccount\\ndkindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|solutionrelative:views\\ndkaccount\\ndkindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson08\\views\\ndkhome\\ndkindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|solutionrelative:views\\ndkhome\\ndkindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson08\\views\\ndkhome\\ndkabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|solutionrelative:views\\ndkhome\\ndkabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson08\\views\\shared\\_ndknavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|solutionrelative:views\\shared\\_ndknavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson08\\views\\shared\\_ndklayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|solutionrelative:views\\shared\\_ndklayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|c:\\k23cnt2-netcore\\k23cnt2-nguyenduykhanh-netcore\\ndklesson08\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{208881C8-1075-4F83-A40D-3D0077DB3E0F}|NdkLesson08.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NdkDelete.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Views\\NdkAccount\\NdkDelete.cshtml",
+              "RelativeDocumentMoniker": "Views\\NdkAccount\\NdkDelete.cshtml",
+              "ToolTip": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Views\\NdkAccount\\NdkDelete.cshtml",
+              "RelativeToolTip": "Views\\NdkAccount\\NdkDelete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T03:48:38.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NdkEdit.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Views\\NdkAccount\\NdkEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\NdkAccount\\NdkEdit.cshtml",
+              "ToolTip": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Views\\NdkAccount\\NdkEdit.cshtml",
+              "RelativeToolTip": "Views\\NdkAccount\\NdkEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T03:47:37.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NdkDetails.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Views\\NdkAccount\\NdkDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\NdkAccount\\NdkDetails.cshtml",
+              "ToolTip": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Views\\NdkAccount\\NdkDetails.cshtml",
+              "RelativeToolTip": "Views\\NdkAccount\\NdkDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T03:40:18.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T03:31:26.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T03:00:07.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NdkCreate.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Views\\NdkAccount\\NdkCreate.cshtml",
+              "RelativeDocumentMoniker": "Views\\NdkAccount\\NdkCreate.cshtml",
+              "ToolTip": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Views\\NdkAccount\\NdkCreate.cshtml",
+              "RelativeToolTip": "Views\\NdkAccount\\NdkCreate.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T02:59:36.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NdkIndex.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Views\\NdkAccount\\NdkIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\NdkAccount\\NdkIndex.cshtml",
+              "ToolTip": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Views\\NdkAccount\\NdkIndex.cshtml",
+              "RelativeToolTip": "Views\\NdkAccount\\NdkIndex.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwDMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T02:38:54.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NdkAccountController.cs",
+              "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Controllers\\NdkAccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NdkAccountController.cs",
+              "ToolTip": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Controllers\\NdkAccountController.cs",
+              "RelativeToolTip": "Controllers\\NdkAccountController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwCcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T02:32:47.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NdkAccount.cs",
+              "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Models\\NdkAccount.cs",
+              "RelativeDocumentMoniker": "Models\\NdkAccount.cs",
+              "ToolTip": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Models\\NdkAccount.cs",
+              "RelativeToolTip": "Models\\NdkAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T02:05:04.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NdkAbout.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Views\\NdkHome\\NdkAbout.cshtml",
+              "RelativeDocumentMoniker": "Views\\NdkHome\\NdkAbout.cshtml",
+              "ToolTip": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Views\\NdkHome\\NdkAbout.cshtml",
+              "RelativeToolTip": "Views\\NdkHome\\NdkAbout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T01:58:25.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NdkIndex.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Views\\NdkHome\\NdkIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\NdkHome\\NdkIndex.cshtml",
+              "ToolTip": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Views\\NdkHome\\NdkIndex.cshtml",
+              "RelativeToolTip": "Views\\NdkHome\\NdkIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T01:57:29.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_NdkLayout.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Views\\Shared\\_NdkLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_NdkLayout.cshtml",
+              "ToolTip": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Views\\Shared\\_NdkLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_NdkLayout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T01:53:07.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_NdkNavBar.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Views\\Shared\\_NdkNavBar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_NdkNavBar.cshtml",
+              "ToolTip": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Views\\Shared\\_NdkNavBar.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_NdkNavBar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T01:54:37.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T01:46:42.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NdkHomeController.cs",
+              "DocumentMoniker": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Controllers\\NdkHomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NdkHomeController.cs",
+              "ToolTip": "C:\\K23CNT2-NetCore\\K23CNT2-NguyenDuyKhanh-NetCore\\NdkLesson08\\Controllers\\NdkHomeController.cs",
+              "RelativeToolTip": "Controllers\\NdkHomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T01:44:49.167Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

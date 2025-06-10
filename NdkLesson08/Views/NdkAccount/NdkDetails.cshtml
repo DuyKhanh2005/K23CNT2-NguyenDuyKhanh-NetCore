@@ -1,0 +1,49 @@
+﻿@model NdkLesson08.Models.NdkAccount
+
+@{
+    ViewData["Title"] = "NdkDetails";
+}
+
+<h1>NdkDetails</h1>
+
+<div>
+    <h4>NdkAccount</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">ID</dt>
+        <dd class="col-sm-10">@Model.NdkId</dd>
+
+        <dt class="col-sm-2">Full Name</dt>
+        <dd class="col-sm-10">@Model.NdkFullName</dd>
+
+        <dt class="col-sm-2">Email</dt>
+        <dd class="col-sm-10">@Model.NdkEmail</dd>
+
+        <dt class="col-sm-2">Phone</dt>
+        <dd class="col-sm-10">@Model.NdkPhone</dd>
+
+        <dt class="col-sm-2">Address</dt>
+        <dd class="col-sm-10">@Model.NdkAddress</dd>
+
+        <dt class="col-sm-2">Avatar</dt>
+        <dd class="col-sm-10">
+            <img src="@Url.Content("~/images/" + Model.NdkAvatar)" width="100" height="100" />
+        </dd>
+
+        <dt class="col-sm-2">Birthday</dt>
+        <dd class="col-sm-10">@Model.NdkBirthday</dd>
+
+        <dt class="col-sm-2">Gender</dt>
+        <dd class="col-sm-10">@Model.NdkGender</dd>
+
+        <dt class="col-sm-2">Password</dt>
+        <dd class="col-sm-10">@Model.NdkPassword</dd>
+
+        <dt class="col-sm-2">Facebook</dt>
+        <dd class="col-sm-10">@Model.NdkFacebook</dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="NdkEdit" asp-route-id="@Model.NdkId">Edit</a> |
+    <a asp-action="NdkIndex">Back to List</a>
+</div>

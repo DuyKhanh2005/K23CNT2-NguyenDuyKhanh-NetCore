@@ -1,0 +1,82 @@
+﻿@model NdkLesson08.Models.NdkAccount
+@{
+    ViewData["Title"] = "Tạo mới tài khoản";
+}
+
+<h2 class="mb-3">Tạo mới tài khoản</h2>
+
+<form asp-action="NdkCreate" method="post" enctype="multipart/form-data" class="row g-3">
+    @Html.AntiForgeryToken()
+
+    <div class="col-md-6">
+        <label asp-for="NdkId" class="form-label"></label>
+        <input asp-for="NdkId" class="form-control" />
+        <span asp-validation-for="NdkId" class="text-danger"></span>
+    </div>
+
+    <div class="col-md-6">
+        <label asp-for="NdkFullName" class="form-label"></label>
+        <input asp-for="NdkFullName" class="form-control" />
+        <span asp-validation-for="NdkFullName" class="text-danger"></span>
+    </div>
+
+    <div class="col-md-6">
+        <label asp-for="NdkEmail" class="form-label"></label>
+        <input asp-for="NdkEmail" type="email" class="form-control" />
+        <span asp-validation-for="NdkEmail" class="text-danger"></span>
+    </div>
+
+    <div class="col-md-6">
+        <label asp-for="NdkPhone" class="form-label"></label>
+        <input asp-for="NdkPhone" class="form-control" />
+        <span asp-validation-for="NdkPhone" class="text-danger"></span>
+    </div>
+
+    <div class="col-12">
+        <label asp-for="NdkAddress" class="form-label"></label>
+        <input asp-for="NdkAddress" class="form-control" />
+        <span asp-validation-for="NdkAddress" class="text-danger"></span>
+    </div>
+
+    <!-- Upload file: dùng đúng tên AvatarUpload để khớp IFormFile trong controller -->
+    <div class="col-md-6">
+        <label class="form-label">Avatar</label>
+        <input type="file" name="AvatarUpload" class="form-control" />
+    </div>
+
+    <div class="col-md-6">
+        <label asp-for="NdkBirthday" class="form-label"></label>
+        <input asp-for="NdkBirthday" type="date" class="form-control" />
+        <span asp-validation-for="NdkBirthday" class="text-danger"></span>
+    </div>
+
+    <div class="col-md-6">
+        <label asp-for="NdkGender" class="form-label"></label>
+        <select asp-for="NdkGender" class="form-select">
+            <option value="Nam">Nam</option>
+            <option value="Nữ">Nữ</option>
+        </select>
+        <span asp-validation-for="NdkGender" class="text-danger"></span>
+    </div>
+
+    <div class="col-md-6">
+        <label asp-for="NdkPassword" class="form-label"></label>
+        <input asp-for="NdkPassword" type="password" class="form-control" />
+        <span asp-validation-for="NdkPassword" class="text-danger"></span>
+    </div>
+
+    <div class="col-12">
+        <label asp-for="NdkFacebook" class="form-label"></label>
+        <input asp-for="NdkFacebook" class="form-control" />
+        <span asp-validation-for="NdkFacebook" class="text-danger"></span>
+    </div>
+
+    <div class="col-12">
+        <button type="submit" class="btn btn-success">Lưu</button>
+        <a asp-action="NdkIndex" class="btn btn-secondary ms-2">Quay lại</a>
+    </div>
+</form>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

@@ -1,0 +1,52 @@
+﻿@model IEnumerable<NdkLesson08.Models.NdkAccount>
+
+@{
+    ViewData["Title"] = "NdkIndex";
+}
+
+<h1>NdkIndex</h1>
+
+<p>
+    <a asp-action="NdkCreate" class="btn btn-primary">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.First().NdkId)</th>
+            <th>@Html.DisplayNameFor(model => model.First().NdkFullName)</th>
+            <th>@Html.DisplayNameFor(model => model.First().NdkEmail)</th>
+            <th>@Html.DisplayNameFor(model => model.First().NdkPhone)</th>
+            <th>@Html.DisplayNameFor(model => model.First().NdkAddress)</th>
+            <th>Avatar</th>
+            <th>@Html.DisplayNameFor(model => model.First().NdkBirthday)</th>
+            <th>@Html.DisplayNameFor(model => model.First().NdkGender)</th>
+            <th>@Html.DisplayNameFor(model => model.First().NdkPassword)</th>
+            <th>@Html.DisplayNameFor(model => model.First().NdkFacebook)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.NdkId)</td>
+                <td>@Html.DisplayFor(modelItem => item.NdkFullName)</td>
+                <td>@Html.DisplayFor(modelItem => item.NdkEmail)</td>
+                <td>@Html.DisplayFor(modelItem => item.NdkPhone)</td>
+                <td>@Html.DisplayFor(modelItem => item.NdkAddress)</td>
+                <td>
+                    <img src="@Url.Content("~/images/" + item.NdkAvatar)" alt="Avatar" width="50" height="50" />
+                </td>
+                <td>@Html.DisplayFor(modelItem => item.NdkBirthday)</td>
+                <td>@Html.DisplayFor(modelItem => item.NdkGender)</td>
+                <td>@Html.DisplayFor(modelItem => item.NdkPassword)</td>
+                <td>@Html.DisplayFor(modelItem => item.NdkFacebook)</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.NdkId }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.NdkId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.NdkId })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

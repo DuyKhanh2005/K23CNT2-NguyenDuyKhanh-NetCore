@@ -1,0 +1,75 @@
+﻿@model NdkLesson08.Models.NdkAccount
+
+@{
+    ViewData["Title"] = "NdkEdit";
+}
+
+<h1>NdkEdit</h1>
+
+<h4>NdkAccount</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="NdkEdit" asp-route-id="@Model.NdkId">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NdkId" class="control-label"></label>
+                <input asp-for="NdkId" class="form-control" />
+                <span asp-validation-for="NdkId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdkFullName" class="control-label"></label>
+                <input asp-for="NdkFullName" class="form-control" />
+                <span asp-validation-for="NdkFullName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdkEmail" class="control-label"></label>
+                <input asp-for="NdkEmail" class="form-control" />
+                <span asp-validation-for="NdkEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdkPhone" class="control-label"></label>
+                <input asp-for="NdkPhone" class="form-control" />
+                <span asp-validation-for="NdkPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdkAddress" class="control-label"></label>
+                <input asp-for="NdkAddress" class="form-control" />
+                <span asp-validation-for="NdkAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdkAvatar" class="control-label"></label>
+                <input asp-for="NdkAvatar" class="form-control" />
+                <span asp-validation-for="NdkAvatar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdkBirthday" class="control-label"></label>
+                <input asp-for="NdkBirthday" class="form-control" />
+                <span asp-validation-for="NdkBirthday" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdkGender" class="control-label"></label>
+                <input asp-for="NdkGender" class="form-control" />
+                <span asp-validation-for="NdkGender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdkPassword" class="control-label"></label>
+                <input asp-for="NdkPassword" class="form-control" />
+                <span asp-validation-for="NdkPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdkFacebook" class="control-label"></label>
+                <input asp-for="NdkFacebook" class="form-control" />
+                <span asp-validation-for="NdkFacebook" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="NdkIndex">Back to List</a>
+</div>
+
