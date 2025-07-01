@@ -1,0 +1,20 @@
+﻿@model NguyenDuyKhanh_2310900050.Models.NdkEmployee
+@{
+    ViewData["Title"] = "Chi tiết nhân viên";
+    Layout = "~/Views/Shared/_NdkLayout.cshtml";
+}
+<h2>Chi tiết nhân viên</h2>
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Tên</dt>
+        <dd class="col-sm-10">@Model.NdkEmpName</dd>
+        <dt class="col-sm-2">Level</dt>
+        <dd class="col-sm-10">@Model.NdkEmpLevel</dd>
+        <dt class="col-sm-2">Ngày vào</dt>
+        <dd class="col-sm-10">@Model.NdkEmpStartDate.ToString("yyyy-MM-dd")</dd>
+        <dt class="col-sm-2">Trạng thái</dt>
+        <dd class="col-sm-10">@(Model.NdkEmpStatus ? "Show" : "Hide")</dd>
+    </dl>
+</div>
+<a href="/NdkEmployee/Edit/@Model.NdkEmpId" class="btn btn-warning">Sửa</a>
+<a href="/NdkEmployee/Index" class="btn btn-secondary">Quay lại</a>

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<NguyenDuyKhanh_2310900050.Models.NdkEmployee>
+@{
+    ViewData["Title"] = "NdkEmployee List";
+    Layout = "~/Views/Shared/_NdkLayout.cshtml";
+}
+<h2>NdkEmployee List</h2>
+<p>
+    <a href="/NdkEmployee/Create" class="btn btn-success">Thêm mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tên</th>
+            <th>Level</th>
+            <th>Ngày vào</th>
+            <th>Trạng thái</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.NdkEmpName</td>
+                <td>@item.NdkEmpLevel</td>
+                <td>@item.NdkEmpStartDate.ToString("yyyy-MM-dd")</td>
+                <td>@(item.NdkEmpStatus ? "Show" : "Hide")</td>
+                <td>
+                    <a href="/NdkEmployee/Details/@item.NdkEmpId">Xem</a> |
+                    <a href="/NdkEmployee/Edit/@item.NdkEmpId">Sửa</a> |
+                    <a href="/NdkEmployee/Delete/@item.NdkEmpId">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
